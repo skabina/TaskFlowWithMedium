@@ -21,3 +21,5 @@ def get_bd():
         yield db 
     finally: # It will close even if there is an error
         db.close()
+
+        
